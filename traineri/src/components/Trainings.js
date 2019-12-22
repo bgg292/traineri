@@ -9,7 +9,7 @@ export default function Trainings() {
     useEffect(() => fetchData() , []);
 
     const fetchData = () => {
-        fetch('https://customerrest.herokuapp.com/api/trainings')
+        fetch('https://customerrest.herokuapp.com/api/gettrainings')
         .then(response => response.json())
         .then(data => setTrainings(data.content))
     }
