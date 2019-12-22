@@ -57,9 +57,7 @@ export default function CustomizedMenus() {
         aria-controls="customized-menu"
         aria-haspopup="true"
         color="primary"
-        onClick={handleClick}>
-        Menu
-      </Button>
+        onClick={handleClick}>Menu</Button>
       <StyledMenu
         id="customized-menu"
         anchorEl={anchorEl}
@@ -67,14 +65,10 @@ export default function CustomizedMenus() {
         open={Boolean(anchorEl)}
         onClose={handleClose}>
         <StyledMenuItem>
-                <li class="nav-item">
                         <Button variant="contained" color="primary" href="/customers">Customers</Button>
-                </li>
         </StyledMenuItem>
         <StyledMenuItem>
-                <li class="nav-item">
 	  		<Button variant="contained" color="primary" href="/trainings">Trainings</Button>
-                </li>   
         </StyledMenuItem>
       </StyledMenu>
       </AppBar>

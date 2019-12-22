@@ -10,7 +10,6 @@ function App() {
 
   return (
     <div className="App">
-
           <BrowserRouter>
           <Navigator />
             <Switch>
@@ -19,8 +18,6 @@ function App() {
               <Route path="/trainings" component={Trainings}></Route>
             </Switch>
             </BrowserRouter>
-
-
     </div>
   );
 }
