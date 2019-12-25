@@ -70,6 +70,9 @@ export default function CustomizedMenus() {
         <StyledMenuItem>
 	  		<Button variant="contained" color="primary" href="/trainings">Trainings</Button>
         </StyledMenuItem>
+	<StyledMenuItem>
+	  		<Button variant="contained" color="primary" href="/calendar">Calendar</Button>
+	</StyledMenuItem>
       </StyledMenu>
       </AppBar>
     </div>
